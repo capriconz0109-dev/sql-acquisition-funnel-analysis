@@ -2,6 +2,10 @@
 
 A session-level SQL funnel analysis of acquisition quality using GA4 ecommerce event data in BigQuery. This project compares whether organic, direct, referral, and paid traffic drove scale, purchase intent, or both.
 
+![Hero source comparison](assets/hero_source_comparison.png)
+
+*Source-level funnel comparison showing that organic search led on volume, while direct and referral traffic showed stronger purchase efficiency.*
+
 ## Business problem
 
 High traffic volume does not automatically mean high commercial value. The goal of this project was to assess whether the largest acquisition sources also generated the strongest downstream purchase efficiency.
@@ -36,4 +40,6 @@ The highest-volume channel was not the highest-value one. This project shows why
 - `queries/02_session_funnel_counts.sql` — builds session-level counts across funnel stages
 - `queries/03_source_level_comparison.sql` — compares traffic sources on volume and conversion quality
 - `queries/04_device_supporting_analysis.sql` — uses device as a supporting segmentation layer
-- `assets/` — stores screenshots used in the case study
+- `assets/hero_source_comparison.png` — main source-level comparison used as the hero image
+- `assets/session_funnel_counts.png` — session-level funnel support image
+- `assets/device_supporting_analysis.png` — device-level supporting analysis image
